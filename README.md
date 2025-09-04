@@ -16,5 +16,11 @@ This theme is still a work in progress.
 
 
 
-## 
+### To do:
 
+* add example figs to the readme
+* any Alyssa-recommended edits (waiting)
+* make the readme professional- see other examples (how to load the theme in R, etc.)
+* a reference to color and adfg\_colors
+* add links to the other mentioned themes
+* clean up code- the hashtags mostly
