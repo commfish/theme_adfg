@@ -2,7 +2,13 @@
 ## Alexandra Reich
 ## August 2025
 
-# load libraryies
+
+#load fonts if necessary
+#library(extrafont)
+#font_import()
+#loadfonts(device = "win")
+
+# load libraries
 library(tidyverse)
 # install.packages("remotes") #install remotes and adfgcolors if one needs to do that.
 # remotes::install_github("justinpriest/adfgcolors")
@@ -13,7 +19,6 @@ library(adfgcolors)
 
 #what has been done:
 # Theme cowplot adjusted -------------------------------------------------- #Justin's base code
-# changed the font to sans-serif 
 # removed the grey background from facet_wrap.
 # updated the obsolete code
 # added a wrapper box option (box = "yes)
@@ -26,7 +31,7 @@ library(adfgcolors)
 # the theme function. Adapted from Justin Priest's theme_adfg. In fact, it is mostly theme_adfg code with tiny edits.
 
 theme_adfg_2 = function (font_size = 18,
-                         font_family = "serif", #"sans", #times new roman is recommended but it is a serif font - which is suboptimal for dataviz. That recommendation should be revisited and I used my creative liberties to ignore it.
+                         font_family = "serif", #"sans", #times new roman is recommended 
                          #line_size = 0.5,
                          rel_small = 0.86 * font_size/font_size,
                          rel_tiny = 0.79 * font_size/font_size,
@@ -36,7 +41,7 @@ theme_adfg_2 = function (font_size = 18,
                          strip.background = element_rect(fill = "grey80", color=NA),
                          strip.placement = "outside",
                          strip.text.y = element_text(angle = -90),
-                         box = "no" #if box = "yes", black rectangle boarder
+                         box = "yes" #if box = "yes", black rectangle boarder
                          
 )
 {
@@ -47,7 +52,7 @@ theme_adfg_2 = function (font_size = 18,
   
   #conditional do-I-want-a-box?
   plot_background_box <- if (box == "yes") {
-    element_rect(color = "black", fill = "white", linewidth = 0.5) #perhaps change from 0.5 later
+    element_rect(color = "black", fill = "white", linewidth = 0.5) #Ok linewidth??
   } else {
     element_rect(fill="white", color = NA)
   }
@@ -67,7 +72,6 @@ theme_adfg_2 = function (font_size = 18,
         fill = NA,
         color = NA,
         #size = line_size, depreciated
-        #linewidth = line_size, #agr added 8/4/25
         linetype = 1
       ),
       text = element_text(
@@ -84,7 +88,7 @@ theme_adfg_2 = function (font_size = 18,
       ),
       axis.line = element_line(
         color = "black",
-        #size = line_size, #agr maybe turn this off next
+        #size = line_size, #agr turned off
         lineend = "square"
       ),
       axis.line.x = NULL,
