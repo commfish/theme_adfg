@@ -58,3 +58,4 @@ Violin plot:
 * a reference to color and adfg\_colors
 * add links to the other mentioned themes - theme\_adfg by justin was a draft but theme\_sleek by Andrew is live I think
 * clean up code- the hashtags mostly
+*potentially need to separate the function from the example figures code...
