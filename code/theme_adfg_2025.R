@@ -205,7 +205,7 @@ theme_adfg_2 = function (font_size = 18,
       ),
       plot.tag.position = c(0, 1),
       plot.margin = margin(20,
-                           20, 20, 20), #was half_line x 4
+                           20, 20, 35), #was half_line x 4
       complete = TRUE,
       legend.position = "inside",
       legend.position.inside = legend.position.set #agr changed
