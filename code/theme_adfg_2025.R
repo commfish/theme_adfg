@@ -265,11 +265,11 @@ names(iris)
 
 #ggsave these examples:
 dir.create("example_figures")
-ggsave(filename = "example_figures/base_plot.tiff", plot = base_plot, width = 8, height = 6, compression="lzw")
-ggsave(filename = "example_figures/color_plot.tiff", plot = color_plot, width = 8, height = 6, compression="lzw")
-ggsave(filename = "example_figures/facet_plot.tiff", plot = facet_plot, width = 10, height = 6, compression="lzw")
-ggsave(filename = "example_figures/facet_plot_nocolor.tiff", plot = facet_plot_nocolor, width = 10, height = 6, compression="lzw")
-ggsave(filename = "example_figures/fill_plot.tiff", plot = fill_plot, width = 8, height = 6, compression="lzw")
-ggsave(filename = "example_figures/fill_plot_grey.tiff", plot = fill_plot_grey, width = 8, height = 6, compression="lzw")
+ggsave(filename = "example_figures/base_plot.png", plot = base_plot, width = 8, height = 6)
+ggsave(filename = "example_figures/color_plot.png", plot = color_plot, width = 8, height = 6)
+ggsave(filename = "example_figures/facet_plot.png", plot = facet_plot, width = 10, height = 6)
+ggsave(filename = "example_figures/facet_plot_nocolor.png", plot = facet_plot_nocolor, width = 10, height = 6)
+ggsave(filename = "example_figures/fill_plot.png", plot = fill_plot, width = 8, height = 6)
+ggsave(filename = "example_figures/fill_plot_grey.png", plot = fill_plot_grey, width = 8, height = 6)
 
 
