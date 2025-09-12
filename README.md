@@ -18,29 +18,29 @@ This theme is still under review.
 
 theme\_adfg\_2 = function (font\_size = 18,
 
-&nbsp;                        font\_family = "serif", #"sans", #times new roman is recommended but it is a serif font - which is suboptimal for dataviz. That recommendation should be revisited and I used my creative liberties to ignore it.
+                         font\_family = "serif", #"sans", #times new roman is recommended but it is a serif font - which is suboptimal for dataviz. That recommendation should be revisited and I used my creative liberties to ignore it.
 
-&nbsp;                        #line\_size = 0.5,
+                         #line\_size = 0.5,
 
-&nbsp;                        rel\_small = 0.86 \* font\_size/font\_size,
+                         rel\_small = 0.86 \* font\_size/font\_size,
 
-&nbsp;                        rel\_tiny = 0.79 \* font\_size/font\_size,
+                         rel\_tiny = 0.79 \* font\_size/font\_size,
 
-&nbsp;                        rel\_large = 1.15 \* font\_size/font\_size,
+                         rel\_large = 1.15 \* font\_size/font\_size,
 
-&nbsp;                        legend.position.set= c(0.8,0.9), #"left", "right", "bottom", "top"
+                         legend.position.set= c(0.8,0.9), #"left", "right", "bottom", "top"
 
-&nbsp;                        legend.justification = c("center"),
+                         legend.justification = c("center"),
 
-&nbsp;                        strip.background = element\_rect(fill = "grey80", color=NA),
+                         strip.background = element\_rect(fill = "grey80", color=NA),
 
-&nbsp;                        strip.placement = "outside",
+                         strip.placement = "outside",
 
-&nbsp;                        strip.text.y = element\_text(angle = -90),
+                         strip.text.y = element\_text(angle = -90),
 
-&nbsp;                        box = "no" #if box = "yes", black rectangle boarder
+                         box = "no" #if box = "yes", black rectangle boarder
 
-&nbsp;                        
+ 
 
 )
 
@@ -58,11 +58,22 @@ theme\_adfg\_2 = function (font\_size = 18,
 
 **\*\*alex - look up how to include figures here (and their codes)**
 
+![basic plot](/example_figures/base_plot.tiff)
+
+
+![facet plot](/example_figures/facet_plot_nocolor.tiff)
+
+
+![violin plot](/example_figures/fill_plot_grey.tiff)
+
+
+
+
 
 
 ### Colors
 
-While frowned upon in official ADF\&G publications, adding a color palette to a graph can greatly improve the impact, especially for posters and presentations. The theme itself is black and white, but colors can be added with adfg\_colors (\*\*LINK; Justin Priest), or any other R color palette of choice. adfg\_colors has some ADF\&G and Alaska-based color palettes. 
+While frowned upon in official ADF\&G publications, adding a color palette to a graph can greatly improve the impact, especially for posters and presentations. The theme itself is black and white, but colors can be added with adfg\_colors (\*\*LINK; Justin Priest), or any other R color palette of choice. adfg\_colors has some ADF\&G and Alaska-based color palettes.
 
 
 
@@ -72,7 +83,7 @@ EXAMPLE CODE:
 
 
 
-EXAMPLE GRAPH: 
+EXAMPLE GRAPH:
 
 
 
