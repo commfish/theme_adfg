@@ -8,20 +8,15 @@ This theme creates a graph template for ADF\&G biologists, biometricians, and sc
 
 This theme is still under review.
 
-### 
+### Installing theme_adfg
+`theme_adfg` can be installed from GitHub with `remotes`
 
-### Arguments of note
-font_family = "Times New Roman"
-ADF&G guidelines recommend the Times New Roman font for all graphs. This can easily be changed to a sans-serif font for improved readability.
+```
+#install.packages("remotes")
+remotes::install_github("commfish/theme_adfg")
+```
 
-legend.position.set = c(0.8, 0.9)
-Change the legend location here.
-
-legend.justification = c("center")
-Change the legend justification here
-
-box = "yes"; "no"
-Add a box around the figure, in accordance with the ADF&G publication guidelines. This should be turned off ("no") if one is creating a multi-panel in postprocessing (with the patchwork library, for example).
+FLAG**- set this up
 
 ### Examples
 The dataset "iris" the R package [datasets](https://www.rdocumentation.org/packages/datasets/versions/3.6.2) was used for the examples.
@@ -103,6 +98,7 @@ ggplot(iris) + aes(x = Species, y= Petal.Length, fill = Species) + geom_violin()
 ![violin plot](/example_figures/fill_plot.png)
 
 
-
+### Box
+Use the argument box = "no" to turn off the box that surrounds the plot. This box was added to comply with ADF&G publication standards, but may not make sense for presentations or multi-panel plots.
 
 
