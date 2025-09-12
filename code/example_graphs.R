@@ -56,7 +56,7 @@ names(iris)
     scale_fill_adfg(palette = "grays_bw", discrete = TRUE))
 
 #ggsave these examples:
-dir.create("example_figures")
+#dir.create("example_figures") #create directory if necessary
 ggsave(filename = "example_figures/base_plot.png", plot = base_plot, width = 8, height = 6)
 ggsave(filename = "example_figures/color_plot.png", plot = color_plot, width = 8, height = 6)
 ggsave(filename = "example_figures/facet_plot.png", plot = facet_plot, width = 10, height = 6)
