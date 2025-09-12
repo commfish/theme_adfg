@@ -61,10 +61,10 @@ theme\_adfg\_2 = function (font\_size = 18,
 ![basic plot](/example_figures/base_plot.png)
 
 
-![facet plot](/example_figures/facet_plot_nocolor.tiff)
+![facet plot](/example_figures/facet_plot_nocolor.png)
 
 
-![violin plot](/example_figures/fill_plot_grey.tiff)
+![violin plot](/example_figures/fill_plot_grey.png)
 
 
 
