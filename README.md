@@ -58,7 +58,7 @@ theme\_adfg\_2 = function (font\_size = 18,
 
 **\*\*alex - look up how to include figures here (and their codes)**
 
-![basic plot](/example_figures/base_plot.tiff)
+![basic plot](/example_figures/base_plot.png)
 
 
 ![facet plot](/example_figures/facet_plot_nocolor.tiff)
