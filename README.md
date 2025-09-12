@@ -24,7 +24,7 @@ box = "yes"; "no"
 Add a box around the figure, in accordance with the ADF&G publication guidelines. This should be turned off ("no") if one is creating a multi-panel in postprocessing (with the patchwork library, for example).
 
 ### Examples
-Data from the R package Iris (CITE!!) were used for the examples.
+The dataset "iris" the R package [datasets](https://www.rdocumentation.org/packages/datasets/versions/3.6.2) was used for the examples.
 
 Basic scatterplot:
 
