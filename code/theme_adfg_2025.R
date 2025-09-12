@@ -30,7 +30,7 @@ library(adfgcolors)
 
 # the theme function. Adapted from Adrew Padilla's theme_adfg. In fact, it is mostly theme_adfg code with tiny edits.
 
-theme_adfg_2 = function (font_size = 18,
+theme_adfg = function (font_size = 18,
                          font_family = "Times New Roman", #"sans", #times new roman is recommended 
                          #line_size = 0.5,
                          rel_small = 0.86 * font_size/font_size,
