@@ -52,7 +52,7 @@ theme_adfg_2 = function (font_size = 18,
   
   #conditional do-I-want-a-box?
   plot_background_box <- if (box == "yes") {
-    element_rect(color = "black", fill = "white", linewidth = 0.5) #Ok linewidth??
+    element_rect(color = "black", fill = "white", linewidth = 0.5)
   } else {
     element_rect(fill="white", color = NA)
   }
@@ -204,8 +204,8 @@ theme_adfg_2 = function (font_size = 18,
         vjust = 0.7
       ),
       plot.tag.position = c(0, 1),
-      plot.margin = margin(half_line,
-                           half_line, half_line, half_line),
+      plot.margin = margin(10,
+                           10, 10, 10), #was half_line x 4
       complete = TRUE,
       legend.position = "inside",
       legend.position.inside = legend.position.set #agr changed
