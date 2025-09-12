@@ -12,14 +12,22 @@ This theme is still under review.
 
 ### 
 
-### Arguments
+### Arguments of note
+font_family = "Times New Roman"
+ADF&G guidelines recommend the Times New Roman font for all graphs. This can easily be changed to a sans-serif font for improved readability.
 
+legend.position.set = c(0.8, 0.9)
+Change the legend location here.
 
+legend.justification = c("center)
+Change the legend justification here
+
+box = "yes"; "no"
+Add a box around the figure, in accordance with the ADF&G publication guidelines
 
 theme\_adfg\_2 = function (font\_size = 18,
 
-                         font\_family = "serif", #"sans", #times new roman is recommended but it is a serif font - which is suboptimal for dataviz. That recommendation should be revisited and I used my creative liberties to ignore it.
-
+                         font\_family = "Times New Roman", #"sans", #times new roman is recommended but it is a serif font - which is suboptimal for dataviz. 
                          #line\_size = 0.5,
 
                          rel\_small = 0.86 \* font\_size/font\_size,
@@ -54,9 +62,6 @@ theme\_adfg\_2 = function (font\_size = 18,
 
 ### Examples
 
-##### 
-
-**\*\*alex - look up how to include figures here (and their codes)**
 
 ![basic plot](/example_figures/base_plot.png)
 
