@@ -28,7 +28,7 @@ library(adfgcolors)
 ##next updates:
 
 
-# the theme function. Adapted from Justin Priest's theme_adfg. In fact, it is mostly theme_adfg code with tiny edits.
+# the theme function. Adapted from Adrew Padilla's theme_adfg. In fact, it is mostly theme_adfg code with tiny edits.
 
 theme_adfg_2 = function (font_size = 18,
                          font_family = "Times New Roman", #"sans", #times new roman is recommended 

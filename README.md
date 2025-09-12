@@ -4,7 +4,7 @@ A ggplot2 theme for reproducible figures in R in a uniform Alaska Department of 
 
 
 
-This theme creates a graph template for ADF\&G biologists, biometricians, and scientists to create a uniform graph output style that conforms with ADF\&G publication standards. This theme was created in collaboration with the ADF\&G reproducibility crew and publication team, to create uniform and professional ADF\&G figures. This work is heavily based on Justin Priest's theme\_adfg draft code (I even stole the name) and theme\_sleek (LINK\*\*?) by Andrew Padilla. The majority of this code was written by Priest and Padilla, and my contribution was just minor edits and finalizations.
+This theme creates a graph template for ADF\&G biologists, biometricians, and scientists to create a uniform graph output style that conforms with ADF\&G publication standards. This theme was created in collaboration with the ADF\&G reproducibility crew and publication team, to create uniform and professional ADF\&G figures. This work is heavily based on Andrew Padilla's theme\_adfg draft code (I even stole the name) and theme\_crisp (LINK\*\*?) by Justin Priest. The majority of this code was written by Padilla and Priest, and my contribution was just minor edits and finalizations.
 
 This theme is still under review.
 
@@ -17,7 +17,7 @@ ADF&G guidelines recommend the Times New Roman font for all graphs. This can eas
 legend.position.set = c(0.8, 0.9)
 Change the legend location here.
 
-legend.justification = c("center)
+legend.justification = c("center")
 Change the legend justification here
 
 box = "yes"; "no"
@@ -27,6 +27,11 @@ Add a box around the figure, in accordance with the ADF&G publication guidelines
 Data from the R package Iris (CITE!!) were used for the examples.
 
 Basic scatterplot:
+
+```
+example code goes here
+```
+
 ![basic plot](/example_figures/base_plot.png)
 
 Basic multipanel plot:
